@@ -141,7 +141,12 @@ hospital-inpatient-activity-portugal/
 │   ├── raw/
 │   │   └── hospital_inpatient_activity.csv
 │   └── processed/
-│       └── inpatient_activity_clean.csv
+│       └── 01_inpatient_activity_clean.parquet
+│       └── 02_fig1_data.parquet
+│       └── 02_fig2_data.parquet
+│       └── 02_fig3_data.parquet
+│       └── 02_final_table_data.parquet
+│       └── 02_coef_var_data.parquet
 ├── figures/
 └── requirements.txt
 
@@ -156,3 +161,7 @@ The final version of the project will include selected the figures and tables in
 > Add exported charts here once the analysis is complete.
 
 ---
+
+## Author
+**Daniel M. Eloi, MD** — Family Physician transitioning to Clinical Data Science  
+📍 Aveiro, Portugal | [LinkedIn](https://www.linkedin.com/in/daniel-e-55b439b6/) | [GitHub](https://github.com/DanielEloi)
