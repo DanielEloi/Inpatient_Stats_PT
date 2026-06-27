@@ -130,7 +130,7 @@ by hospital institution and by specialty type (medical, surgical and other).
 
 ## Repository structure
 
-text
+```bash
 hospital-inpatient-activity-portugal/
 ├── README.md
 ├── notebooks/
@@ -149,6 +149,7 @@ hospital-inpatient-activity-portugal/
 │       └── 02_coef_var_data.parquet
 ├── figures/
 └── requirements.txt
+```
 
 > Some files (notebooks, processed data, figures) are still being created as the project evolves.
 
